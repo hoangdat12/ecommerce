@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  position: relative;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+}
+
+.category, .checkout {
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+  top: 80px;
+  left: 240px; 
+  transition: all 0.5s ease;
+}
+
+.close ~ .home,
+.close ~ .footer, 
+.close ~ .carousel, 
+.close ~ .detail, 
+.close ~ .more__infor,
+.close ~ .cart,
+.close ~ .login ,
+.close ~ .category,
+.close ~ .checkout
+{
+  left: 60px;
+  width: calc(100% - 60px);
+}
+.close ~ .home .quantity {
+  columns: 5 !important;
+}
+
+.container {
+  width: 75% !important;
+  margin: auto;
+}

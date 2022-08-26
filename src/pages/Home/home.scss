@@ -1,0 +1,272 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    width: calc(100% - 240px);
+    top: 80px;
+    left: 240px;
+    transition: all 0.5s ease;
+
+    .list__product {
+    //     margin-top: 30px;
+    //     position: relative;
+    //     min-height: 100vh;
+    //     width: calc(100% - 240px);
+
+        .product__title {
+            width: 100%;
+            text-align: center;
+            padding-top: 3rem;
+            font-size: 30px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        // .container {
+        //     columns: 4 ;
+        //     width: 90%;
+        //     margin: auto;
+        //     padding-top: 50px !important;
+
+        //     .product {
+        //         position: relative;
+        //         cursor: pointer;
+        //         overflow: hidden;
+        //         padding: 20px;
+        //         background-color: #ccc;
+        //         border-radius: 10px;
+        //         margin-bottom: 20px;
+
+        //         a {
+        //             text-decoration: none;
+        //             color: #111;
+        //         }
+
+        //         .hidden__img {
+        //             position: absolute;
+        //             top: 0;
+        //             left: 0;
+        //             padding: 20px;
+        //             overflow: hidden;
+        //             opacity: 0;
+        //             transition: all 0.3s ease;
+
+        //             &:hover {
+        //                 opacity: 1 !important;
+        //             }
+
+        //             &:hover .size__prodcuct {
+        //                 transform: translateX(0);
+        //                 opacity: 1;
+        //             }
+
+        //             .size__prodcuct {
+        //                 position: absolute;
+        //                 bottom: 18%;
+        //                 left: 15%;
+        //                 display: flex;
+        //                 align-items: center;
+        //                 justify-content: center;
+        //                 transform: translateY(100px);
+        //                 opacity: 0;
+        //                 transition: all 0.3s ease-in;
+
+        //                 span {
+        //                     text-align: center;
+        //                     min-width: 15%;
+        //                     margin-right: 10px;
+        //                     padding: 5px 10px;
+        //                     background-color: #fff;
+        //                     color: #111;
+        //                     font-size: 20px;
+        //                     font-weight: 500;
+        //                     border-radius: 10px;
+        //                 }
+        //             }
+        //         }
+
+        //         img {
+        //             width: 100%;
+        //             border-radius: 10px ;
+        //             transition: all 0.5s ease;
+        //         }
+
+        //         .product__name{
+        //             padding: 5px 0 0 10px;
+
+        //             h4 {
+        //                 font-size: 14px;
+        //                 margin-top: 10px;
+        //             }
+
+        //             span {
+        //                 font-size: 14px;
+        //             }
+                    
+        //             .sale {
+        //                 text-align: center;
+        //                 margin-top: 10px;
+        //                 padding: 10px;
+        //                 border: 1px solid rgb(18, 18, 194);
+        //                 color: rgb(18, 18, 194);
+        //                 font-weight: 400;
+        //                 border-radius: 10px;
+        //                 font-size: 14px;
+        //             }
+        //         }
+        //     }
+        // }
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 30px 0;
+
+        .home__intro {
+            columns: 2;
+            padding: 20px;
+            background-image: url('https://mcdn.coolmate.me/image/April2022/mceclip1_68.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 50px;
+    
+            .intro__img {
+                border-radius: 50px;
+                overflow: hidden;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .intro__letter {
+            padding: 20px 30px;
+            color: #fff;
+
+            h3 {
+                font-size: 3rem;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            p {
+                font-weight: 400;
+                margin: 30px 0;
+            }
+
+            button {
+                padding: 10px 20px;
+                background-color: #fff;
+                color: #111;
+                border-radius: 15px;
+                border: none;
+                transition: all 0.4s ease-in;
+
+                &:hover {
+                    background-color: #ccc;
+                }
+
+            }
+        }
+    }
+
+    .home__intro__img {
+        padding: 30px 10px;
+
+        .title {
+            font-size: 5rem;
+            font-weight: 600;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .intro__product {
+            columns: 5;
+
+            .product {
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .intro__link {
+            color: #111;
+
+            h5 {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .button {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                button {
+                    margin: auto;
+                    padding: 10px 30px;
+                    background-color: #f9f86c;
+                    border: none;
+                    border-radius: 30px;
+                    font-weight: 500;
+                    transition: all 0.4s ease;
+    
+                    &:hover {
+                        background-color: #ccc;
+                    }
+                }
+            }
+        }
+    }
+
+    .home__intro__list {
+        columns: 4;
+
+        .list__product {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+
+            a {
+                text-decoration: none;
+
+                .img__list {
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        transition: all 0.5s ease;
+                    }
+
+                    &:hover img{
+                        transform: scale(1.2);
+                    }
+                }
+            }
+
+            .button {
+                position: absolute;
+                top: 50%;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                button {
+                    padding: 8px 30px;
+                    min-width: 80%;
+                    border: none;
+                    border-radius: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+    
